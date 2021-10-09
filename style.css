@@ -1,0 +1,428 @@
+.bannerBg
+{
+    background-image: url(images/banner_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+.line-top
+{
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    background-color: orangered;
+    z-index: 9999999999;
+}
+.line-right
+{
+    left: auto;
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 200%;
+    position: fixed;
+    background-color: orangered;
+    z-index: 9999999999;
+}
+.line-left
+{
+    z-index: 9999999999;
+    left: 0;
+    top: 0;
+    width: 30px;
+    height: 200%;
+    position: fixed;
+    background-color: orangered;
+}
+.line-bottom
+{
+    left: 0;
+    top: auto;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    background-color: orangered;
+    z-index: 9999999999;
+}
+ /*********** navbar********/
+
+  .navbg
+  {
+    background-color: transparent;
+    width: 100%;
+  }
+
+
+.captionIMage
+{
+    margin-top: 40%;
+}
+.caption-slider
+{
+    font-weight: bolder;
+    font-size: 90px;
+    color: rgba(66, 65, 65, 0.7);;
+}
+
+
+
+/**  side box  portfolio **/
+
+.open
+{
+    cursor: pointer;
+    font-size: 30px;
+}
+#sideBar
+{
+    position:fixed;
+    left: 0;
+    top: 0px;
+    z-index: 9999;
+}
+.Box
+{
+    background-color:white;
+    filter: blur();
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 0);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: .5s;
+    width: 0px;
+}
+.side-Box
+{
+    transition: 1s;
+}
+.test
+{
+    width: 100%;
+    padding:30px ;
+}
+
+
+/* Gallary => code style */
+
+/* paragraph */
+.p-style
+{
+  color: #948e8e;
+}
+
+/* links */
+
+.links
+{
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: solid 2px transparent;
+
+}
+a.links:hover
+{
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  border-bottom: solid 2px rgb(233, 86, 33);
+  transition: all .3s ease-in;
+}
+
+/* images */
+
+
+.member
+{
+    transition: 1s;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+
+.caption
+{
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    transition: top 1s;
+    overflow: hidden;
+}
+
+
+/*********************************************************/
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+  position: relative;
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+a{
+  color: rgb(233, 86, 33);
+}
+
+a:hover{
+  color: white;
+  background-color:rgb(233, 86, 33) ;
+  border-radius: 5px;
+}
+
+.nav-tabs
+{
+  border-bottom: none;
+}
+
+/*************  img src *************/
+
+#lightBoxContainer
+{
+  display: none;
+  position: fixed;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  z-index: 77777;
+} 
+#lightBoxItem
+{
+  
+  height: 90vh;
+  background-image: url(./../../images/gallery/03.jpg);
+  background-size: cover;
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  z-index: 77777;
+}
+
+#colse
+{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+#lightBoxItem i
+{
+  box-shadow: 0 0 0 3px #d8dee6;
+  font-size: 30px;
+  color: rgb(51, 48, 45);
+  background-color: rgba(202, 191, 191, 0.5);
+  border-radius: 50%;
+  margin: 10px;
+}
+
+/**************/
+
+@media screen and (max-width:575px)
+{
+#lightBoxItem
+    {
+        width: 100%;
+        height: 50vh;
+    }
+    .line
+    {
+        display: none;
+    }
+    #sideBar
+    {
+        display: none;
+    }
+}
+    @media screen  and (min-width:576px) and (max-width:767px)
+ {
+
+  #lightBoxItem
+  {
+        width:100%;
+        height: 50vh;
+
+    }
+      .line
+    {
+        display: none;
+    }
+       #sideBar
+    {
+        display: none;
+    }
+}
+
+@media screen  and (min-width:768px) and (max-width:991px)
+ {
+  #lightBoxItem
+  {
+        width:75%;
+        height: 50vh;
+
+  }
+}
+/*****/
+
+@media screen and (max-width:575px)
+{
+.h-after::after , .h-after::before , .h2-after::after ,.h2-after::before
+
+    {
+      display: none;
+    }
+}
+    @media screen  and (min-width:576px) and (max-width:767px)
+ {
+
+  .h-after::after , .h-after::before , .h2-after::after ,.h2-after::before
+
+  {
+    display: none;
+  }
+}
+
+@media screen  and (min-width:768px) and (max-width:991px)
+ {
+  .h-after::after , .h-after::before , .h2-after::after ,.h2-after::before
+
+    {
+      display: none;
+    }
+}
+@media screen  and (min-width:991px) and (max-width:1290px)
+ {
+  .h-after::after , .h-after::before , .h2-after::after ,.h2-after::before
+
+    {
+      display: none;
+    }
+}
+/**************************************/
+
+@media screen and (max-width:575px)
+{
+  .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding:10px;
+  }
+}
+    @media screen  and (min-width:576px) and (max-width:767px)
+ {
+
+  .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding:10px;
+  }
+}
+
+
+@media screen  and (min-width:768px) and (max-width:991px)
+ {
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+  position: relative;
+  width: 100%;
+  padding:10px;
+}
+ }
+/* contact */
+.animation
+{
+    position: absolute;
+    width: 26px;
+    height: 40px;
+    border: 1px solid rgb(224, 91, 43);
+    border-radius: 13px;
+    background: transparent;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    transition: all 0.3s;
+}
+.dot {
+
+    position: absolute;
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: orangered;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 6px;
+    left: 0;
+    right: 0;
+
+}
+.dot{
+  
+    position: relative;
+    animation-name: changeposition;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes changeposition
+{
+    0%{ top: 0px; }
+    50%{ top: 10px;}
+    100%{ top :20px}
+    
+}   
+*{
+    font-family: "Playfair Display", serif;
+}
+.icons
+{
+    color: orangered;
+    font-size: 25px;
+    padding-right: 9px;
+}
+
+.signup
+{
+    background-color: orangered;
+}
+
+.progress-bar
+{
+    background-color: rgba(248, 77, 15, 0.5);
+}
+
+/* side */
+
+#sideBar
+{
+    position:fixed;
+    left: 0;
+    top: 100px;
+    z-index: 9999;
+}
+#colorsBox
+{
+    background-color: #ccc;
+    padding:10px ;
+}
+.color-box
+{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+#sideBar i 
+{
+padding:10px;
+
+color: #fff; 
+background-color: #333;   
+cursor: pointer;
+}
