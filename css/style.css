@@ -1,0 +1,164 @@
+.bg {
+  background-image: url(../images/slider-background.webp);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 90vh;
+  background-attachment: fixed;
+}
+
+.layout {
+  background-color: rgba(8, 153, 146, 0.1);
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+}
+
+.mainColor {
+  color: #22a39f;
+}
+
+.img {
+  border-radius: 15%;
+  border: solid 10px rgba(8, 153, 146, 0.3);
+}
+
+.bgFooter {
+  background-color: #434242;
+  color: white;
+}
+
+.link {
+  text-decoration: none;
+  color: white !important;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #22a39f;
+}
+
+.btnShow {
+  background-color: #22a39f;
+  color: white;
+}
+
+.btnShow:hover {
+  background-color: #147774;
+  color: white;
+}
+
+.icons {
+  font-size: 22px;
+  padding-right: 10px;
+}
+
+/* experience */
+.bgExbrience {
+  background-color: #f3efe0;
+}
+
+/* projects */
+.member:hover {
+  background-color: rgba(84, 242, 221, 0.85);
+}
+
+.member {
+  transition: 1s;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0 0 32px 0 rgb(41 49 51 / 45%);
+  border-radius: 6px;
+  transition: 1s;
+}
+
+.member:hover img {
+  transform: scale(1.1, 1.1);
+  transition-duration: 1s;
+  transition: 1s;
+}
+
+.caption {
+  position: absolute;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  transition: top 1s;
+}
+
+.member:hover .caption {
+  top: 0px;
+  transition-duration: 1s;
+  background-color: rgba(100, 212, 203, 0.3);
+  cursor: pointer;
+}
+
+.name {
+  color: white;
+  transition: 1s;
+}
+
+.name:hover {
+  color: #189676;
+  text-decoration: none;
+}
+
+.member-icon {
+  transition: 1s;
+}
+
+.member-icon {
+  color: white;
+}
+
+.three {
+  color: #22a39f;
+  font-size: 30px;
+}
+
+.filmName {
+  background-color: #22a39f;
+  border-radius: 6px;
+  color: white;
+}
+
+.specialFont {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Playfair Display SC', serif;
+  font-family: 'Playfair Display', serif;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+/* nav bar */
+.navbarbg {
+  position: fixed;
+  background-color: #22a39f;
+  color: white;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.nav-link,
+.nav-link:hover {
+  color: white !important;
+}
+
+.navbar-toggler {
+  padding: 0.10rem 0.75rem;
+  font-size: 20px;
+  line-height: 1;
+  background-color: white !important;
+  border: 1px solid transparent !important;
+  border-radius: 0.25rem;
+  content: "m" !important;
+}
